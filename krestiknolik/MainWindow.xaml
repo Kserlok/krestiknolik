@@ -5,30 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:krestiknolik"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="450">
-    <Grid>
+        Title="Для омежек" Height="550" Width="450">
+    <Grid Height="530"  VerticalAlignment="Top" Background="White">
         <Grid.RowDefinitions >
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="100"/>
+            <RowDefinition Height="130"/>
+            <RowDefinition Height="130"/>
+            <RowDefinition Height="130"/>
+            <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>
             <ColumnDefinition Width="150"/>
             <ColumnDefinition Width="150"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="Button0" Grid.Column="0" Grid.Row="0" Click="Button_Click" Content="" />
-        <Button x:Name="Button1" Grid.Column="1" Grid.Row="0" Click="Button_Click_1" Content=" " />
-        <Button x:Name="Button2" Grid.Column="2" Grid.Row="0" Click="Button_Click_2" Content="  "/>
-        <Button x:Name="Button3" Grid.Column="0" Grid.Row="1" Click="Button_Click_3" Content="   "/>
-        <Button x:Name="Button6" Grid.Column="0" Grid.Row="2" Click="Button_Click_6" Content="    "/>
-        <Button x:Name="Button7" Grid.Column="1" Grid.Row="2" Click="Button_Click_7" Content="     "/>
-        <Button x:Name="Button4" Grid.Column="1" Grid.Row="1" Click="Button_Click_4" Content="      "/>
-        <Button x:Name="Button8" Grid.Column="2" Grid.Row="2" Click="Button_Click_8" Content="       "/>
-        <Button x:Name="Button5" Grid.Column="2" Grid.Row="1" Click="Button_Click_5" Content="         "/>
-        <Button Grid.Column="0" Grid.Row="3" Height="50"/>
-        <Button Grid.Column="1" Grid.Row="3" Height="50"/>
-        <Button Grid.Column="2" Grid.Row="3" Height="50"/>
+        <Button x:Name="Button0" Grid.Column="0" Grid.Row="0" Click="Button_Click" Content="" FontSize="75" FontFamily="MV Boli" Background="#FF8A90E6"/>
+        <Button x:Name="Button1" Grid.Column="1" Grid.Row="0" Click="Button_Click_1" Content=" " FontSize="75" FontFamily="MV Boli" Background="#FF8A90E6" />
+        <Button x:Name="Button2" Grid.Column="2" Grid.Row="0" Click="Button_Click_2" Content="  " FontSize="75" FontFamily="MV Boli" Background="#FF8A90E6"/>
+        <Button x:Name="Button3" Grid.Column="0" Grid.Row="1" Click="Button_Click_3" Content="   " FontSize="75" FontFamily="MV Boli" Background="#FF8A90E6"/>
+        <Button x:Name="Button6" Grid.Column="0" Grid.Row="2" Click="Button_Click_6" Content="    " FontSize="75" FontFamily="MV Boli" Background="#FF8A90E6"/>
+        <Button x:Name="Button7" Grid.Column="1" Grid.Row="2" Click="Button_Click_7" Content="     " FontSize="75" FontFamily="MV Boli" Background="#FF8A90E6"/>
+        <Button x:Name="Button4" Grid.Column="1" Grid.Row="1" Click="Button_Click_4" Content="      " FontSize="75" FontFamily="MV Boli" Background="#FF8A90E6"/>
+        <Button x:Name="Button8" Grid.Column="2" Grid.Row="2" Click="Button_Click_8" Content="       " FontSize="75" FontFamily="MV Boli" Background="#FF8A90E6"/>
+        <Button x:Name="Button5" Grid.Column="2" Grid.Row="1" Click="Button_Click_5" Content="         " FontSize="75" FontFamily="MV Boli" Background="#FF8A90E6"/>
+        <Button Grid.Column="0" Grid.Row="3" Height="50" Click="Button_Click_9" Content="Для настоящих мужыков" Background="#FFFF0017" FontFamily="MV Boli"/>
+        <Button Grid.Column="1" Grid.Row="3" Height="50" Content="рестарт в будущем" Background="Snow"/>
+        <Button Grid.Column="2" Grid.Row="3" Height="50" Content="придумай" Background="White"/>
     </Grid>
 </Window>

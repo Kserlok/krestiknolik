@@ -1,0 +1,40 @@
+﻿<Window x:Class="krestiknolik._4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:krestiknolik"
+        mc:Ignorable="d"
+        Title="ХАРДКОР" Height="550" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ButtonA" Grid.Column="0" Grid.Row="0"/>
+        <Button x:Name="ButtonB" Grid.Column="1" Grid.Row="0"/>
+        <Button x:Name="ButtonC" Grid.Column="2" Grid.Row="0"/>
+        <Button x:Name="ButtonD" Grid.Column="3" Grid.Row="0"/>
+        <Button x:Name="ButtonE" Grid.Column="0" Grid.Row="1"/>
+        <Button x:Name="ButtonI" Grid.Column="0" Grid.Row="2"/>
+        <Button x:Name="ButtonM" Grid.Column="0" Grid.Row="3"/>
+        <Button x:Name="ButtonF" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="ButtonJ" Grid.Column="1" Grid.Row="2"/>
+        <Button x:Name="ButtonN" Grid.Column="1" Grid.Row="3"/>
+        <Button x:Name="ButtonG" Grid.Column="2" Grid.Row="1"/>
+        <Button x:Name="ButtonK" Grid.Column="2" Grid.Row="2"/>
+        <Button x:Name="ButtonO" Grid.Column="2" Grid.Row="3"/>
+        <Button x:Name="ButtonH" Grid.Column="3" Grid.Row="1"/>
+        <Button x:Name="ButtonL" Grid.Column="3" Grid.Row="2"/>
+        <Button x:Name="ButtonP" Grid.Column="3" Grid.Row="3"/>
+    </Grid>
+</Window>
