@@ -29,6 +29,7 @@
         <Button x:Name="Button5" Grid.Column="2" Grid.Row="1" Click="Button_Click_5" Content="         " FontSize="75" FontFamily="MV Boli" Background="#FF8A90E6"/>
         <Button Grid.Column="0" Grid.Row="3" Height="50" Click="Button_Click_9" Content="Для настоящих мужыков" Background="#FFB6A9AA" FontFamily="MV Boli"/>
         <Button Grid.Column="2" Grid.Row="3" Height="50" Content="Очистить поле" Background="#FFAEA1A1" Click="Button_Click_11"/>
-        <Label x:Name="Label1" Grid.Column="1" Grid.Row="3"  Background="#FFDFDFDF"/>
+        <Button Grid.Column="0" Grid.Row="3" HorizontalAlignment="Stretch" Margin="0,70.8,0.4,-54" Click="Button_Click_10" Background="#FFAEA1A1" Content="не работает((((("/>
+        <Label x:Name="Label1" Grid.Column="1" Grid.Row="3"  Background="#FFDFDFDF" HorizontalAlignment="Stretch" FontSize="20"/>
     </Grid>
 </Window>

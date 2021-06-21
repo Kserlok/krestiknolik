@@ -108,7 +108,6 @@ namespace krestiknolik
                     MessageBox.Show(ex.Message);
                 }
             }
-
         }
        void Najat (Button button)
        {
@@ -313,6 +312,12 @@ namespace krestiknolik
             Button6.Content = "      ";
             Button7.Content = "       ";
             Button8.Content = "        "; /// отвратительно 
+        }
+
+        private void Button_Click_10(object sender, RoutedEventArgs e)
+        {
+            Bot taskWindow = new Bot();
+            taskWindow.Show();
         }
     }
 }

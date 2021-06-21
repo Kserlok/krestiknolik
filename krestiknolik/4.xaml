@@ -20,21 +20,23 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="ButtonA" Grid.Column="0" Grid.Row="0"/>
-        <Button x:Name="ButtonB" Grid.Column="1" Grid.Row="0"/>
-        <Button x:Name="ButtonC" Grid.Column="2" Grid.Row="0"/>
-        <Button x:Name="ButtonD" Grid.Column="3" Grid.Row="0"/>
-        <Button x:Name="ButtonE" Grid.Column="0" Grid.Row="1"/>
-        <Button x:Name="ButtonI" Grid.Column="0" Grid.Row="2"/>
-        <Button x:Name="ButtonM" Grid.Column="0" Grid.Row="3"/>
-        <Button x:Name="ButtonF" Grid.Column="1" Grid.Row="1"/>
-        <Button x:Name="ButtonJ" Grid.Column="1" Grid.Row="2"/>
-        <Button x:Name="ButtonN" Grid.Column="1" Grid.Row="3"/>
-        <Button x:Name="ButtonG" Grid.Column="2" Grid.Row="1"/>
-        <Button x:Name="ButtonK" Grid.Column="2" Grid.Row="2"/>
-        <Button x:Name="ButtonO" Grid.Column="2" Grid.Row="3"/>
-        <Button x:Name="ButtonH" Grid.Column="3" Grid.Row="1"/>
-        <Button x:Name="ButtonL" Grid.Column="3" Grid.Row="2"/>
-        <Button x:Name="ButtonP" Grid.Column="3" Grid.Row="3"/>
+        <Button x:Name="ButtonA" Grid.Column="0" Grid.Row="0" Click="Button_Click_A" Content=" " Background="Aquamarine"/>
+        <Button x:Name="ButtonB" Grid.Column="1" Grid.Row="0" Click="Button_Click_B" Content="  " Background="Aquamarine"/>
+        <Button x:Name="ButtonC" Grid.Column="2" Grid.Row="0" Click="Button_Click_C" Content="   " Background="Aquamarine"/>
+        <Button x:Name="ButtonD" Grid.Column="3" Grid.Row="0" Click="Button_Click_D" Content="    " Background="Aquamarine"/>
+        <Button x:Name="ButtonE" Grid.Column="0" Grid.Row="1" Click="Button_Click_E" Content="     " Background="Aquamarine"/>
+        <Button x:Name="ButtonI" Grid.Column="0" Grid.Row="2" Click="Button_Click_I" Content="      " Background="Aquamarine"/>
+        <Button x:Name="ButtonM" Grid.Column="0" Grid.Row="3" Click="Button_Click_M" Content="       " Background="Aquamarine"/>
+        <Button x:Name="ButtonF" Grid.Column="1" Grid.Row="1" Click="Button_Click_F" Content="        " Background="Aquamarine"/>
+        <Button x:Name="ButtonJ" Grid.Column="1" Grid.Row="2" Click="Button_Click_J" Content="         " Background="Aquamarine"/>
+        <Button x:Name="ButtonN" Grid.Column="1" Grid.Row="3" Click="Button_Click_N" Content="          " Background="Aquamarine"/>
+        <Button x:Name="ButtonG" Grid.Column="2" Grid.Row="1" Click="Button_Click_G" Content="           " Background="Aquamarine"/>
+        <Button x:Name="ButtonK" Grid.Column="2" Grid.Row="2" Click="Button_Click_K" Content="             " Background="Aquamarine"/>
+        <Button x:Name="ButtonO" Grid.Column="2" Grid.Row="3" Click="Button_Click_O" Content="              " Background="Aquamarine"/>
+        <Button x:Name="ButtonH" Grid.Column="3" Grid.Row="1" Click="Button_Click_H" Content="                " Background="Aquamarine"/>
+        <Button x:Name="ButtonL" Grid.Column="3" Grid.Row="2" Click="Button_Click_L" Content="                  " Background="Aquamarine"/>
+        <Button x:Name="ButtonP" Grid.Column="3" Grid.Row="3" Click="Button_Click_P" Content="                    " Background="Aquamarine"/>
+        <Button x:Name="Delete" Grid.Column="0" Grid.Row="4" Height="40" Content="Очистить поле" Click="Delete_Click"/>
+        <Label x:Name="Lable2" Grid.Column="1" Grid.Row="4" Content=" "/>
     </Grid>
 </Window>
